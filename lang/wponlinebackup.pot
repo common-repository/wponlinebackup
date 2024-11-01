@@ -1,0 +1,2311 @@
+# Copyright (C) 2013 Online Backup for WordPress
+# This file is distributed under the same license as the Online Backup for WordPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Online Backup for WordPress 3.0.4\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wponlinebackup\n"
+"POT-Creation-Date: 2013-09-09 10:52:52+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: include/admin.php:81
+msgctxt "wponlinebackup"
+msgid "View Dashboard"
+msgstr ""
+
+#: include/admin.php:105 include/admin.php:3427 include/admin.php:3439
+msgid "Online Backup"
+msgstr ""
+
+#: include/admin.php:427
+msgid "Monitor Running Activity"
+msgstr ""
+
+#: include/admin.php:430 include/admin.php:945 include/admin.php:4340
+msgid "Backup"
+msgstr ""
+
+#: include/admin.php:435 include/admin.php:541
+msgid "Overview"
+msgstr ""
+
+#: include/admin.php:437
+msgid "Local Backups & Decryption"
+msgstr ""
+
+#: include/admin.php:438 include/admin.php:2230
+msgid "Activity Log"
+msgstr ""
+
+#: include/admin.php:439
+msgctxt "The schedule configuration screen"
+msgid "Schedule"
+msgstr ""
+
+#: include/admin.php:440
+msgid "General Settings"
+msgstr ""
+
+#: include/admin.php:441
+msgid "Online Backup Settings"
+msgstr ""
+
+#: include/admin.php:442 include/admin.php:3623
+msgid "Help & Support"
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (Online Backup for WordPress 3.0.4)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: include/admin.php:453 include/stream_full.php:732 include/tables.php:366
+msgid "Online Backup for WordPress"
+msgstr ""
+
+#: include/admin.php:563
+msgid "Backups are not scheduled"
+msgstr ""
+
+#: include/admin.php:564
+msgid "Click 'Schedule' to configure."
+msgstr ""
+
+#: include/admin.php:572
+msgid "Scheduled backups will fail"
+msgstr ""
+
+#: include/admin.php:573
+msgid ""
+"Backups are scheduled to run to the online vault but credentials have yet to "
+"be provided.<br />You can provide credentials on the <a href=\"%s\">Online "
+"Backup Settings</a> page."
+msgstr ""
+
+#: include/admin.php:589
+msgid "A backup is currently starting..."
+msgstr ""
+
+#: include/admin.php:598
+msgid "A backup is currently running..."
+msgstr ""
+
+#: include/admin.php:608
+msgid "A backup is due to start at any moment..."
+msgstr ""
+
+#: include/admin.php:616
+msgid "%s - The next backup will begin at %s."
+msgstr ""
+
+#: include/admin.php:618
+msgctxt "Next backup start time"
+msgid "jS M Y g.i.s A"
+msgstr ""
+
+#: include/admin.php:627
+msgid "Backups are scheduled"
+msgstr ""
+
+#: include/admin.php:639
+msgid "Compression is available"
+msgstr ""
+
+#: include/admin.php:640
+msgid "Backup sizes will be greatly reduced."
+msgstr ""
+
+#: include/admin.php:648
+msgid "Compression is unavailable"
+msgstr ""
+
+#: include/admin.php:649
+msgid ""
+"ZLIB support is not enabled in PHP.<br />We recommend you contact your host "
+"to enable this; it will greatly reduce the size of backups."
+msgstr ""
+
+#: include/admin.php:662
+msgid "Encryption is not configured"
+msgstr ""
+
+#: include/admin.php:663
+msgid ""
+"Encryption is highly recommended. You can configure this on the <a href=\"%s"
+"\">General Settings</a> page."
+msgstr ""
+
+#: include/admin.php:671
+msgid "Encryption is enabled"
+msgstr ""
+
+#: include/admin.php:672
+msgid "Backups will be encrypted with %s level encryption."
+msgstr ""
+
+#: include/admin.php:680
+msgid ""
+"Encryption requires the php-mcrypt extension and either php-hash or php-"
+"mhash.<br />We recommend you contact your host about this; encryption is "
+"highly recommended."
+msgstr ""
+
+#: include/admin.php:682
+msgid ""
+"Encryption requires the php-mcrypt extension.<br />We recommend you contact "
+"your host about this; encryption is highly recommended."
+msgstr ""
+
+#: include/admin.php:687
+msgid "Encryption is unavailable"
+msgstr ""
+
+#: include/admin.php:699
+msgid "Filesystem backup is disabled in schedule"
+msgstr ""
+
+#: include/admin.php:700
+msgid ""
+"Only the database will be backed up during scheduled backups. You can "
+"configure otherwise on the <a href=\"%s\">Schedule</a> page."
+msgstr ""
+
+#: include/admin.php:715
+msgid "Backups may be visible to third-parties!"
+msgstr ""
+
+#: include/admin.php:716
+msgid ""
+"Local backups are stored at <a href=\"%s\">%s</a> and this location appears "
+"to be visible to third-parties."
+msgstr ""
+
+#: include/admin.php:717 include/admin.php:733
+msgid ""
+"You should turn off directory listing for this directory, or password "
+"protected it. Contact your host if you need any help."
+msgstr ""
+
+#: include/admin.php:731
+msgid "Temporary data may be visible to third-parties!"
+msgstr ""
+
+#: include/admin.php:732
+msgid ""
+"Temporary data created during backup is stored at <a href=\"%s\">%s</a> and "
+"this location appears to be visible to third-parties."
+msgstr ""
+
+#: include/admin.php:777 include/admin.php:2323 include/admin.php:2521
+msgid "Unexpected stop"
+msgstr ""
+
+#: include/admin.php:781 include/admin.php:2331 include/admin.php:2529
+msgid "Successful (%d warning)"
+msgid_plural "Successful (%d warnings)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/admin.php:781 include/admin.php:2331 include/admin.php:2529
+msgid "Successful"
+msgstr ""
+
+#: include/admin.php:785 include/admin.php:2335 include/admin.php:2533
+msgid "Partial (%d error)"
+msgid_plural "Partial (%d errors)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/admin.php:785 include/admin.php:2335 include/admin.php:2533
+msgid "Partial"
+msgstr ""
+
+#: include/admin.php:789 include/admin.php:2339 include/admin.php:2537
+msgid "Stopped"
+msgstr ""
+
+#: include/admin.php:795 include/admin.php:2345 include/admin.php:2543
+msgid "Failed"
+msgstr ""
+
+#: include/admin.php:800 include/admin.php:2350 include/admin.php:2548
+msgid "Low Memory"
+msgstr ""
+
+#: include/admin.php:804 include/admin.php:2354 include/admin.php:2552
+msgid "Maintenance"
+msgstr ""
+
+#: include/admin.php:809
+msgid "(Manual)"
+msgstr ""
+
+#: include/admin.php:810
+msgid "(Scheduled)"
+msgstr ""
+
+#: include/admin.php:813
+msgctxt "Last backup time"
+msgid "jS M Y g.i.s A"
+msgstr ""
+
+#: include/admin.php:818
+msgid "The backup ran for %s and backed up %s in %d file."
+msgid_plural "The backup ran for %s and backed up %s in %d files."
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/admin.php:823
+msgid "A total of %s in %d file was scanned."
+msgid_plural "A total of %s in %d files were scanned."
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/admin.php:835
+msgid "Latest backup:"
+msgstr ""
+
+#: include/admin.php:853
+msgid "Configuration checklist:"
+msgstr ""
+
+#: include/admin.php:871
+msgid "Notices:"
+msgstr ""
+
+#: include/admin.php:890
+msgid ""
+"The configuration check was last completed at %s. <a href=\"%s\">Check my "
+"configuration now</a>."
+msgstr ""
+
+#: include/admin.php:890
+msgctxt "Last configuration check time"
+msgid "jS M Y g.i.s A"
+msgstr ""
+
+#: include/admin.php:892
+msgid ""
+"No configuration check has been performed yet. <a href=\"%s\">Check my "
+"configuration now</a>."
+msgstr ""
+
+#: include/admin.php:960
+msgid "Monitor Activity"
+msgstr ""
+
+#: include/admin.php:1020
+msgid ""
+"You cannot start an Online Backup as the plugin is not yet logged into the "
+"online backup vault. Click 'Online Backup Settings' for more information."
+msgstr ""
+
+#: include/admin.php:1032 include/admin.php:2033
+msgid "The email address you specified is not valid."
+msgstr ""
+
+#: include/admin.php:1050
+msgid "Encryption can not be bypassed for backups to the online vault"
+msgstr ""
+
+#: include/admin.php:1060 include/admin.php:2008
+msgid ""
+"You did not select anything to backup. Please choose whether to backup the "
+"database, filesystem or both."
+msgstr ""
+
+#: include/admin.php:1085
+msgid "The backup could not be started; another backup is already in progress."
+msgstr ""
+
+#: include/admin.php:1093
+msgid ""
+"The backup could not be started; the following error was encountered during "
+"initialisation: %s."
+msgstr ""
+
+#: include/admin.php:1124
+msgid "Start Backup"
+msgstr ""
+
+#: include/admin.php:1168
+msgid ""
+"Each time you run a backup on-demand you can select whether to backup the "
+"database, the filesystem, or both."
+msgstr ""
+
+#: include/admin.php:1169
+msgid ""
+"Additionally, you can temporarily disable encryption if creating a local "
+"backup."
+msgstr ""
+
+#: include/admin.php:1173 include/admin.php:2175
+msgid "Backup selection:"
+msgstr ""
+
+#: include/admin.php:1178 include/admin.php:2180
+msgid "Database"
+msgstr ""
+
+#: include/admin.php:1183 include/admin.php:2185
+msgid "Filesystem"
+msgstr ""
+
+#: include/admin.php:1186
+msgid "Backup type:"
+msgstr ""
+
+#: include/admin.php:1191
+msgid ""
+"Online - Send an incremental backup to the Online Backup for WordPress Vault"
+msgstr ""
+
+#: include/admin.php:1196
+msgid "Local - Generate a downoadable full backup and store it locally"
+msgstr ""
+
+#: include/admin.php:1201
+msgid "Email - Generate a full backup and email it to the specified address"
+msgstr ""
+
+#: include/admin.php:1206 include/admin.php:2212
+msgid "Address to use when emailing:"
+msgstr ""
+
+#: include/admin.php:1212
+msgid "Encryption bypass:"
+msgstr ""
+
+#: include/admin.php:1217
+msgid ""
+"Bypass encryption for this backup (Only valid for Local and Email backups)"
+msgstr ""
+
+#: include/admin.php:1224
+msgid "Start Manual Backup"
+msgstr ""
+
+#: include/admin.php:1274
+msgctxt "Backup progress"
+msgid "Events"
+msgstr ""
+
+#: include/admin.php:1275
+msgctxt "Backup progress"
+msgid "Errors"
+msgstr ""
+
+#: include/admin.php:1276
+msgctxt "Backup progress"
+msgid "Warnings"
+msgstr ""
+
+#: include/admin.php:1285
+msgid "Stopping..."
+msgstr ""
+
+#: include/admin.php:1287
+msgid "Stop Backup"
+msgstr ""
+
+#: include/admin.php:1300
+msgid ""
+"You can navigate away from this page if you do not wish to wait - the "
+"activity will be processed silently in the background."
+msgstr ""
+
+#: include/admin.php:1312
+msgid ""
+"The full backup was completed and has been stored on your server as <span id="
+"\"wponlinebackup_completed_file\">%s</span>."
+msgstr ""
+
+#: include/admin.php:1313 include/admin.php:1341
+msgid "You can download it now, and if you do not wish to keep it, delete it."
+msgstr ""
+
+#: include/admin.php:1320
+msgid "The size of the backup file is: %s."
+msgstr ""
+
+#: include/admin.php:1325 include/admin.php:1353 include/admin.php:1832
+msgid "Download"
+msgstr ""
+
+#: include/admin.php:1326 include/admin.php:1354 include/admin.php:1833
+msgid "Delete"
+msgstr ""
+
+#: include/admin.php:1340
+msgid ""
+"The backup has been decrypted and has been stored on your server as <span id="
+"\"wponlinebackup_completed_file\">%s</span>."
+msgstr ""
+
+#: include/admin.php:1348
+msgid "The size of the decrypted backup file is: %s."
+msgstr ""
+
+#: include/admin.php:1425
+msgid "Deleted backup."
+msgstr ""
+
+#: include/admin.php:1434
+msgid "Failed to delete the backup: %s"
+msgstr ""
+
+#: include/admin.php:1467
+msgid "Locked backup."
+msgstr ""
+
+#: include/admin.php:1467
+msgid "Unlocked backup."
+msgstr ""
+
+#: include/admin.php:1540 include/admin.php:2696 include/admin.php:3292
+msgid ""
+"The encryption key specified must be no longer than %1$d characters in "
+"length for %2$s encryption."
+msgstr ""
+
+#: include/admin.php:1545 include/admin.php:2701 include/admin.php:3297
+msgid "Please specify an encryption key."
+msgstr ""
+
+#: include/admin.php:1554 include/admin.php:2710 include/admin.php:3306
+msgid ""
+"The encryption key specified must be no longer than %d characters in length."
+msgstr ""
+
+#: include/admin.php:1580
+msgid ""
+"The decrypt could not be started; another activity is already in progress."
+msgstr ""
+
+#: include/admin.php:1588
+msgid ""
+"The decrypt could not be started; the following error was encountered during "
+"initialisation: %s."
+msgstr ""
+
+#: include/admin.php:1600
+msgctxt "Decrypt subsection title"
+msgid "Decrypt Backup"
+msgstr ""
+
+#: include/admin.php:1649
+msgid "Local Backups"
+msgstr ""
+
+#: include/admin.php:1657
+msgid ""
+"Below is a list of backup files currently stored on your server. <strong>It "
+"is highly recommended that these backups are downloaded and stored away from "
+"the server to prevent a total loss if the server fails.</strong>"
+msgstr ""
+
+#: include/admin.php:1658
+msgid ""
+"Old files are deleted automatically to keep you below %s storage space "
+"whilst still keeping a minimum of %s files (configurable in General "
+"Settings.) LOCKED files will never be deleted and will not counted towards "
+"the storage space."
+msgstr ""
+
+#: include/admin.php:1659
+msgid ""
+"Encrypted files, which have a .ENC file extension, can be decrypted from "
+"this page; the result of the decryption will be stored next to the original "
+"file in this folder. You can also upload files to this folder via FTP for "
+"decryption or storage; the location is: %s."
+msgstr ""
+
+#: include/admin.php:1663 include/admin.php:1672
+msgid "File Name"
+msgstr ""
+
+#: include/admin.php:1664 include/admin.php:1673
+msgid "File Size"
+msgstr ""
+
+#: include/admin.php:1665 include/admin.php:1674
+msgid "Created"
+msgstr ""
+
+#: include/admin.php:1666 include/admin.php:1675 include/admin.php:2254
+#: include/admin.php:2266
+msgid "Settings"
+msgstr ""
+
+#: include/admin.php:1667 include/admin.php:1676
+msgid "Download / Delete"
+msgstr ""
+
+#: include/admin.php:1732
+msgid "%s <b>(Contains invalid characters, please rename via FTP)</b>"
+msgstr ""
+
+#: include/admin.php:1764
+msgid "No local backups exist."
+msgstr ""
+
+#: include/admin.php:1802
+msgid "%s <b>(LOCKED)</b>"
+msgstr ""
+
+#: include/admin.php:1810
+msgctxt "Local backup creation time"
+msgid "jS M Y g.i.s A"
+msgstr ""
+
+#: include/admin.php:1816 include/admin.php:1859 include/admin.php:2384
+#: include/admin.php:2430 include/admin.php:2496
+msgid "Compressed"
+msgstr ""
+
+#: include/admin.php:1819 include/admin.php:1861 include/admin.php:2387
+#: include/admin.php:2432 include/admin.php:2499
+msgid "Encrypted"
+msgstr ""
+
+#: include/admin.php:1837
+msgid "Unlock"
+msgstr ""
+
+#: include/admin.php:1841
+msgid "Lock"
+msgstr ""
+
+#: include/admin.php:1846 include/admin.php:2367 include/admin.php:2422
+#: include/admin.php:2472 include/admin.php:4344
+msgid "Decrypt"
+msgstr ""
+
+#: include/admin.php:1871
+msgid ""
+"You may use this section to decrypt an encrypted local backup that you have "
+"downloaded from the plugin. An encrypted backup will have the .ENC file "
+"extension."
+msgstr ""
+
+#: include/admin.php:1872
+msgid ""
+"If you try to upload a file to decrypt and nothing happens, or you receive "
+"an error or blank page, your backup file may be too large to upload. The "
+"maximum size of a file your web server can receive is shown next to the file "
+"selector on the form."
+msgstr ""
+
+#: include/admin.php:1873
+msgid ""
+"To upload files larger than the limit imposed by your web server, you can "
+"upload them via FTP. Just place them in the folder specified in the form "
+"below."
+msgstr ""
+
+#: include/admin.php:1882 include/admin.php:3559
+msgid "Your blog does not have the following encryption types available."
+msgstr ""
+
+#: include/admin.php:1883
+msgid ""
+"If your backup file was encrypted using any of these types, you will not be "
+"able to decrypt it using this plugin installation."
+msgstr ""
+
+#: include/admin.php:1884 include/admin.php:3561
+msgid "You may need to contact your host about this."
+msgstr ""
+
+#: include/admin.php:1904 include/admin.php:2966 include/admin.php:3586
+msgid "Encryption type:"
+msgstr ""
+
+#: include/admin.php:1916 include/admin.php:2974 include/admin.php:2993
+#: include/admin.php:3598
+msgid "%s [Recommended]"
+msgstr ""
+
+#: include/admin.php:1924 include/admin.php:3011 include/admin.php:3606
+msgid "Encryption key:"
+msgstr ""
+
+#: include/admin.php:1929
+msgid "Decrypt Backup"
+msgstr ""
+
+#: include/admin.php:1937 include/admin.php:3002
+msgid ""
+"Encryption requires the php-mcrypt extension with AES or DES cipher support "
+"and a compatible message digest framework (php 5.1.2 where it is builtin, "
+"php-hash or php-mhash)."
+msgstr ""
+
+#: include/admin.php:1938
+msgid ""
+"Your server does meet these requirements, therefore you cannot this plugin "
+"installation to decrypt any encrypted backups."
+msgstr ""
+
+#: include/admin.php:1974
+msgid "The hour specified is not valid. The valid range is 0-23."
+msgstr ""
+
+#: include/admin.php:1983
+msgid "The minute specified is not valid. The valid range is 0-59."
+msgstr ""
+
+#: include/admin.php:2024
+msgid "Please specify an address to email the backup to."
+msgstr ""
+
+#: include/admin.php:2051
+msgid "Saved schedule."
+msgstr ""
+
+#: include/admin.php:2068
+msgid "Schedule"
+msgstr ""
+
+#: include/admin.php:2120
+msgid "Configure the backup schedule in this section."
+msgstr ""
+
+#: include/admin.php:2121
+msgid ""
+"Your backup will start, with the specified options, at the specified time."
+msgstr ""
+
+#: include/admin.php:2125
+msgid "Backup schedule:"
+msgstr ""
+
+#: include/admin.php:2144
+msgid "Day to perform backup:"
+msgstr ""
+
+#: include/admin.php:2159
+msgid "This value is only used if the schedule is set to \"Weekly\"."
+msgstr ""
+
+#: include/admin.php:2164
+msgid "Hour to perform backup:"
+msgstr ""
+
+#: include/admin.php:2166
+msgid ""
+"This value is ignored if the schedule is set to \"Hourly\". If the schedule "
+"is set to \"Twice Daily\" or \"Four Times Daily\", one of the backups will "
+"start at this time, and the rest will happen at 12 or 6 hour intervals "
+"around this time."
+msgstr ""
+
+#: include/admin.php:2171
+msgid "Minute to perform backup:"
+msgstr ""
+
+#: include/admin.php:2188
+msgid "Type of backup to perform"
+msgstr ""
+
+#: include/admin.php:2219
+msgid "Apply Schedule"
+msgstr ""
+
+#: include/admin.php:2250 include/admin.php:2262
+msgid "Start"
+msgstr ""
+
+#: include/admin.php:2251 include/admin.php:2263
+msgid "End"
+msgstr ""
+
+#: include/admin.php:2252 include/admin.php:2264
+msgid "Duration"
+msgstr ""
+
+#: include/admin.php:2253 include/admin.php:2265
+msgid "Completion"
+msgstr ""
+
+#: include/admin.php:2255 include/admin.php:2267
+msgid "Backup Size"
+msgstr ""
+
+#: include/admin.php:2256 include/admin.php:2268
+msgid "Total Size"
+msgstr ""
+
+#: include/admin.php:2257 include/admin.php:2269
+msgid "Events"
+msgstr ""
+
+#: include/admin.php:2287
+msgid "The Activity Log is currently empty."
+msgstr ""
+
+#: include/admin.php:2302
+msgctxt "Activity log start time"
+msgid "jS M Y g.i.s A"
+msgstr ""
+
+#: include/admin.php:2309 include/admin.php:2573
+msgid "N/A"
+msgstr ""
+
+#: include/admin.php:2312
+msgctxt "Activity log end time"
+msgid "jS M Y g.i.s A"
+msgstr ""
+
+#: include/admin.php:2327 include/admin.php:2525
+msgid "Running..."
+msgstr ""
+
+#: include/admin.php:2363 include/admin.php:2418 include/admin.php:2468
+msgid "Manual Backup"
+msgstr ""
+
+#: include/admin.php:2365 include/admin.php:2420 include/admin.php:2470
+msgid "Scheduled Backup"
+msgstr ""
+
+#: include/admin.php:2369 include/admin.php:2474
+msgid "Unknown"
+msgstr ""
+
+#: include/admin.php:2373 include/admin.php:2424 include/admin.php:2485
+msgid "Local"
+msgstr ""
+
+#: include/admin.php:2376 include/admin.php:2426 include/admin.php:2488
+msgid "Emailed"
+msgstr ""
+
+#: include/admin.php:2379 include/admin.php:2428 include/admin.php:2491
+msgid "Sent to Online Vault"
+msgstr ""
+
+#: include/admin.php:2401 include/admin.php:2404 include/admin.php:2560
+#: include/admin.php:2563
+msgid "%s (%d file)"
+msgid_plural "%s (%d files)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/admin.php:2407
+msgid "View Event (%d)"
+msgid_plural "View Events (%d)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/admin.php:2440
+msgid "Event Log"
+msgstr ""
+
+#: include/admin.php:2460
+msgid "The specified activity no longer exists. There are no events to show."
+msgstr ""
+
+#: include/admin.php:2568
+msgctxt "Event log activity start time"
+msgid "jS M Y g.i.s A"
+msgstr ""
+
+#: include/admin.php:2576
+msgctxt "Event log activity end time"
+msgid "jS M Y g.i.s A"
+msgstr ""
+
+#: include/admin.php:2584 include/admin.php:2591
+msgid "Time"
+msgstr ""
+
+#: include/admin.php:2585 include/admin.php:2592
+msgid "Type"
+msgstr ""
+
+#: include/admin.php:2586 include/admin.php:2593
+msgid "Event"
+msgstr ""
+
+#: include/admin.php:2610
+msgid "The Event Log for this activity is currently empty."
+msgstr ""
+
+#: include/admin.php:2625
+msgctxt "Event log entry time"
+msgid "jS M Y g.i.s A"
+msgstr ""
+
+#: include/admin.php:2632
+msgid "Information"
+msgstr ""
+
+#: include/admin.php:2636
+msgid "Warning"
+msgstr ""
+
+#: include/admin.php:2640
+msgid "Error"
+msgstr ""
+
+#: include/admin.php:2812
+msgid ""
+"Please specify a valid number between %1$d and %2$d for the number of months "
+"activity and event logs should be kept for."
+msgstr ""
+
+#: include/admin.php:2829
+msgid ""
+"Please specify a valid number between %1$d and %2$d for the minimum number "
+"of local backups to keep."
+msgstr ""
+
+#: include/admin.php:2846
+msgid ""
+"Please specify a valid number between %1$d and %2$d for the maximum storage, "
+"in MiB, local backups should utilise."
+msgstr ""
+
+#: include/admin.php:2884
+msgid "Encryption"
+msgstr ""
+
+#: include/admin.php:2885
+msgid "Backup Behaviour"
+msgstr ""
+
+#: include/admin.php:2886
+msgid "Save"
+msgstr ""
+
+#: include/admin.php:2946
+msgid ""
+"We highly recommended that you enable encryption. Using encryption will mean "
+"that nobody can access your backup files without first providing the "
+"encryption key."
+msgstr ""
+
+#: include/admin.php:2947
+msgid ""
+"DES is the lightest form of encryption, and actually uses more server "
+"resources than AES encryption. Only use DES if you need encryption but need "
+"it to be weak. AES encryption is the better encryption. The larger the "
+"number after it, the more server resources required to encrypt the data, but "
+"the better the protection provided."
+msgstr ""
+
+#: include/admin.php:2948
+msgid ""
+"We recommend AES128 - it has the best balance in not being too resource "
+"intensive and still offering enterprise grade protection."
+msgstr ""
+
+#: include/admin.php:2955
+msgid ""
+"Encryption details CANNOT be changed because Online Backup is currently "
+"active."
+msgstr ""
+
+#: include/admin.php:2956
+msgid ""
+"Online Backup is incremental - that is, only changes made between backups "
+"are actually sent to the online vault - and so the encryption details used "
+"for each backup must remain the same."
+msgstr ""
+
+#: include/admin.php:3002
+msgid ""
+"Encryption is highly recommended and you should consider contacting your "
+"host regarding these requirements."
+msgstr ""
+
+#: include/admin.php:3017
+msgid ""
+"This is the password that will be used to encrypt your backups - you should "
+"set it to a bunch of random characters or symbols."
+msgstr ""
+
+#: include/admin.php:3019
+msgid "Remember to write it down!"
+msgstr ""
+
+#: include/admin.php:3021 include/admin.php:3608
+msgid ""
+"Your encryption key is just like a password, it can be anything you want it "
+"to be."
+msgstr ""
+
+#: include/admin.php:3030 include/admin.php:3581
+msgid "ATTENTION! DO NOT LOSE YOUR ENCRYPTION DETAILS!"
+msgstr ""
+
+#: include/admin.php:3031 include/admin.php:3582
+msgid ""
+"Just remember, your backups can NEVER be recovered if you forget these "
+"details."
+msgstr ""
+
+#: include/admin.php:3032 include/admin.php:3583
+msgid ""
+"Therefore, it is IMPERATIVE that you write them down somewhere. Please do "
+"not contact us regarding lost encryption details... there is absolutely "
+"nothing we can do."
+msgstr ""
+
+#: include/admin.php:3072
+msgid ""
+"These settings affect the behaviour of the backups. If you have custom/"
+"plugin database tables you can choose whether to back them up or not, or "
+"only choose to backup certain ones. You can also exclude comments and trash."
+msgstr ""
+
+#: include/admin.php:3073
+msgid ""
+"For filesystem backups you can also specify whether to include themes and "
+"plugins or not."
+msgstr ""
+
+#: include/admin.php:3076
+msgid "Database backup behaviour:"
+msgstr ""
+
+#: include/admin.php:3080
+msgid ""
+"Core WordPress tables will always be backed up when the database is included."
+msgstr ""
+
+#: include/admin.php:3088
+msgid ""
+"ONLY backup the custom/plugin tables selected below (new tables will not be "
+"backed up until explicitly selected.)"
+msgstr ""
+
+#: include/admin.php:3094
+msgid ""
+"Backup all custom/plugin tables EXCEPT those selected below (new tables will "
+"automatically be backed up until explicitly selected.) [Recommended]"
+msgstr ""
+
+#: include/admin.php:3112
+msgid "No non-default tables currently exist."
+msgstr ""
+
+#: include/admin.php:3117
+msgid "Database excludes:"
+msgstr ""
+
+#: include/admin.php:3123
+msgid "Exclude comments in the trash."
+msgstr ""
+
+#: include/admin.php:3129
+msgid "Exclude comments that are marked as spam."
+msgstr ""
+
+#: include/admin.php:3132
+msgid "Filesystem excludes:"
+msgstr ""
+
+#: include/admin.php:3133
+msgid ""
+"Files that are part of the default WordPress installation will always be "
+"backed up when the filesystem is included."
+msgstr ""
+
+#: include/admin.php:3139
+msgid "Exclude plugins (%s)"
+msgstr ""
+
+#: include/admin.php:3145
+msgid "Exclude themes (%s)"
+msgstr ""
+
+#: include/admin.php:3151
+msgid "Exclude uploads (%s)"
+msgstr ""
+
+#: include/admin.php:3152
+msgid ""
+"Custom filesystem excludes can be specified here, one per line, relative to "
+"the following folder: %s"
+msgstr ""
+
+#: include/admin.php:3153
+msgid ""
+"For example, to exclude %s, enter %s into the box below on its own line. "
+"Always use forward slashes even if your server runs Windows."
+msgstr ""
+
+#: include/admin.php:3157
+msgid "WordPress in a subdirectory:"
+msgstr ""
+
+#: include/admin.php:3158
+msgid ""
+"By default, only the WordPress folder is backed up. However, if your "
+"WordPress folder is installed as a subdirectory within a larger website, and "
+"you wish to backup that website also, this option will allow you to do just "
+"that."
+msgstr ""
+
+#: include/admin.php:3159
+msgid ""
+"If you are not sure or have not installed WordPress as a subdirectory, you "
+"should leave this option disabled as you may end up backing up significantly "
+"more than expected."
+msgstr ""
+
+#: include/admin.php:3160
+msgid ""
+"You can exclude items from this level by prefixing the filesystem exclude "
+"entry with &quot;../&quot; (dot dot forward-slash) like this: ../exclude/"
+"from/parent"
+msgstr ""
+
+#: include/admin.php:3166
+msgid ""
+"WordPress looks like it is NOT installed as a subdirectory so this option "
+"SHOULD be ignored. If you believe this to be wrong, you can enable the "
+"option anyway and any problems will be reported in the event log during "
+"backup."
+msgstr ""
+
+#: include/admin.php:3182
+msgid "Backup the parent directory as well as the WordPress directory: %s"
+msgstr ""
+
+#: include/admin.php:3184
+msgid "Backup the parent directory as well as the WordPress directory."
+msgstr ""
+
+#: include/admin.php:3189
+msgid "Minimum Local Backups:"
+msgstr ""
+
+#: include/admin.php:3190
+msgid ""
+"The minimum number of Local Backups that should be kept, regardless of their "
+"size. We recommend 2 so you always have at least the last 2 backups "
+"available."
+msgstr ""
+
+#: include/admin.php:3194
+msgid "Maximum Local Backups Storage:"
+msgstr ""
+
+#: include/admin.php:3195
+msgid ""
+"The maximum storage space Local Backups should utilise in MiB. Older Local "
+"Backups will automatically be deleted when storage exceeds this. This "
+"settings is ignored if you have less backups available than the Minimum "
+"Local Backups."
+msgstr ""
+
+#: include/admin.php:3199
+msgid "Activity and event logs:"
+msgstr ""
+
+#: include/admin.php:3200
+msgid ""
+"This is for how long activity and event logs should be kept. We recommend 6 "
+"months."
+msgstr ""
+
+#: include/admin.php:3210
+msgid "%d months [Recommended]"
+msgstr ""
+
+#: include/admin.php:3211
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/admin.php:3228
+msgid "Save Settings"
+msgstr ""
+
+#: include/admin.php:3336
+msgid ""
+"IMPORTANT! Last chance to configure encryption! Once you have connected the "
+"plugin to the online vault you will NOT be able to change your encryption "
+"settings without disconnecting the plugin and deleting all backed up data."
+msgstr ""
+
+#: include/admin.php:3350
+msgid ""
+"The encryption settings configured do not match those previously used with "
+"this blog. For the plugin to be able to utilise the existing backup data on "
+"the online vault, the encryption settings must match. Please re-enter them "
+"below. If you cannot remember these settings you will need to delete all "
+"data related to this blog from the online vault, after which you will be "
+"allowed to connect the plugin with new encryption settings."
+msgstr ""
+
+#: include/admin.php:3358
+msgid ""
+"Encryption has been previously used with this blog. For the plugin to be "
+"able to utilise the existing backup data on the online vault, the encryption "
+"settings must match. However, your server does not have any encryption "
+"available. You may need to contact your host about installing the libmcrypt "
+"PHP encryption, or delete all data related to this blog from the online "
+"vault, after which you will be allowed to connect the plugin with new "
+"encryption settings."
+msgstr ""
+
+#: include/admin.php:3451
+msgid ""
+"The plugin is currently connected to the online backup servers and Online "
+"Backup is available - your backup data can be transmitted to our secure "
+"online vault."
+msgstr ""
+
+#: include/admin.php:3452
+msgid ""
+"You may view your available backups at %s, by logging in with your username "
+"and password."
+msgstr ""
+
+#: include/admin.php:3455 include/admin.php:3545
+msgid "Online Backup Username:"
+msgstr ""
+
+#: include/admin.php:3470
+msgid "Online Backup Usage:"
+msgstr ""
+
+#: include/admin.php:3491
+msgid "Disconnect"
+msgstr ""
+
+#: include/admin.php:3541
+msgid ""
+"The plugin is not currently connected to our secure online vault, therefore "
+"Online Backup is not currently available."
+msgstr ""
+
+#: include/admin.php:3542
+msgid ""
+"To be able to use our online service you will need to register for a FREE "
+"account at %s, and provide your username and password to the plugin below. "
+"Should you then lose your entire WordPress website you can then download "
+"your data from our website."
+msgstr ""
+
+#: include/admin.php:3549
+msgid "Online Backup Password:"
+msgstr ""
+
+#: include/admin.php:3560
+msgid ""
+"If your blog was previously backed up online using any of these types, you "
+"will not be able to configure online backup using this plugin installation."
+msgstr ""
+
+#: include/admin.php:3615
+msgid "Connect"
+msgstr ""
+
+#: include/admin.php:4015
+msgid "Advanced Settings"
+msgstr ""
+
+#: include/admin.php:4025
+msgid ""
+"These are advanced (and sometimes dangerous) settings that control the "
+"overall behaviour of how backups are performed and how failures are "
+"detected. This page is intended only for debugging by Backup Technology "
+"staff."
+msgstr ""
+
+#: include/admin.php:4026
+msgid ""
+"For 99% of users, the default settings will work perfectly fine. Changes to "
+"settings here can prevent backups from working, reduce the performance of "
+"your blog during backups, and even reduce the security of online backups."
+msgstr ""
+
+#: include/admin.php:4030
+msgid ""
+"ATTENTION! DO NOT MAKE CHANGES TO THESE SETTINGS UNLESS ABSOLUTELY NECESSARY "
+"OR A MEMBER OF BACKUP TECHNOLOGY STAFF ASKS YOU TO DO SO."
+msgstr ""
+
+#: include/admin.php:4180 include/admin.php:4215 include/admin.php:4245
+msgid "Yes"
+msgstr ""
+
+#: include/admin.php:4184 include/admin.php:4219 include/admin.php:4249
+msgid "No"
+msgstr ""
+
+#: include/admin.php:4232
+msgid "Save Advanced Settings"
+msgstr ""
+
+#: include/admin.php:4335
+msgctxt "Type of backup"
+msgid "Unknown"
+msgstr ""
+
+#: include/admin.php:4376
+msgid "Nothing is currently running."
+msgstr ""
+
+#: include/admin.php:4390
+msgid "%s stopped unexpectedly. The WordPress cron may be misconfigured."
+msgstr ""
+
+#: include/admin.php:4394
+msgid "%1$s completed successfully with %2$d warning."
+msgid_plural "%1$s completed successfully with %2$d warnings."
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/admin.php:4394
+msgid "%s completed successfully."
+msgstr ""
+
+#: include/admin.php:4403
+msgid ""
+"%1$s completed partially with %2$d error. Please consult the event log for "
+"more information."
+msgid_plural ""
+"%1$s completed partially with %2$d errors. Please consult the event log for "
+"more information."
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/admin.php:4403
+msgid "%s completed partially."
+msgstr ""
+
+#: include/admin.php:4432
+msgid "Processing..."
+msgstr ""
+
+#: include/bootstrap.php:323
+msgid "Stopping backup..."
+msgstr ""
+
+#: include/bootstrap.php:525
+msgid "Waiting for the backup to start..."
+msgstr ""
+
+#: include/bootstrap.php:529
+msgid "Waiting for the scheduled backup to start..."
+msgstr ""
+
+#: include/bootstrap.php:533
+msgid "Waiting for the decrypt to start..."
+msgstr ""
+
+#: include/bootstrap.php:537
+msgid "Waiting for the activity to start..."
+msgstr ""
+
+#: include/bootstrap.php:777 include/bootstrap.php:785
+msgid "A database operation failed."
+msgstr ""
+
+#: include/bootstrap.php:778
+msgid ""
+"Please try reinstalling the plugin - in most cases this will repair the "
+"database."
+msgstr ""
+
+#: include/bootstrap.php:779 include/bootstrap.php:827
+msgid ""
+"Please contact support if the issue persists, providing the complete event "
+"log for the activity. Diagnostic information follows:"
+msgstr ""
+
+#: include/bootstrap.php:794 include/bootstrap.php:801
+msgid "A filesystem operation failed."
+msgstr ""
+
+#: include/bootstrap.php:794
+msgid "A filesystem operation failed while processing %s for backup."
+msgstr ""
+
+#: include/bootstrap.php:795 include/bootstrap.php:811
+msgid ""
+"If the following error message is not clear as to the problem and the issue "
+"persists, please contact support providing the complete event log for the "
+"activity. Diagnostic information follows:"
+msgstr ""
+
+#: include/bootstrap.php:810
+msgid "A transmission operation failed."
+msgstr ""
+
+#: include/bootstrap.php:817 include/bootstrap.php:833
+msgid "Communication with the online vault failed."
+msgstr ""
+
+#: include/bootstrap.php:826
+msgid "An online request succeeded but was malformed."
+msgstr ""
+
+#: include/bootstrap.php:826
+msgid "An online request failed: The server response was malformed."
+msgstr ""
+
+#: include/bootstrap.php:1172 include/compressor_deflate.php:128
+msgid ""
+"Compression is no longer available on the server. The server configuration "
+"must have changed during backup. Please run the backup again to run without "
+"compression."
+msgstr ""
+
+#: include/bootstrap.php:1177
+msgid ""
+"The backup cannot proceed any further as the state information for the "
+"backup has exceeded the maximum size MySQL will allow. Please visit the Help "
+"& Support section for information on where to find help."
+msgstr ""
+
+#: include/bootstrap.php:1238 include/bootstrap.php:1360
+msgid "The activity was stopped to allow a plugin update to complete."
+msgstr ""
+
+#: include/bootstrap.php:1261
+msgid ""
+"The activity cannot proceed any further due to low memory. If possible, "
+"increase PHP's memory limit. Otherwise, disabling some unused plugins may "
+"free up enough memory to allow the activity to complete."
+msgstr ""
+
+#: include/bootstrap.php:1266 include/bootstrap.php:1289
+msgid ""
+"The activity cannot proceed any further due to an unknown problem. Please "
+"visit the Help & Support section for information on where to find help."
+msgstr ""
+
+#: include/bootstrap.php:1284
+msgid ""
+"The activity cannot proceed any further due to low memory. If possible "
+"increase PHP's memory limit. Otherwise, disabling some unused plugins may "
+"free up enough memory to allow the activity to complete."
+msgstr ""
+
+#: include/bootstrap.php:1309
+msgid ""
+"A timeout occurred (large files and slow servers are a common cause of "
+"this); trying again..."
+msgstr ""
+
+#: include/bootstrap.php:1452
+msgid "Backup starting..."
+msgstr ""
+
+#: include/bootstrap.php:1456
+msgid "Scheduled backup starting..."
+msgstr ""
+
+#: include/bootstrap.php:1460
+msgid "Decrypt starting..."
+msgstr ""
+
+#: include/bootstrap.php:1464
+msgid "Starting..."
+msgstr ""
+
+#: include/bootstrap.php:1483
+msgid "The backup failed to start: %s"
+msgstr ""
+
+#: include/bootstrap.php:1487
+msgid "The scheduled backup failed to start: %s"
+msgstr ""
+
+#: include/bootstrap.php:1491
+msgid "The decrypt failed to start: %s"
+msgstr ""
+
+#: include/bootstrap.php:1495
+msgid "The activity failed to start: %s"
+msgstr ""
+
+#: include/bootstrap.php:1515
+msgid ""
+"An online backup cannot be performed if the plugin is not currently logged "
+"into the online backup servers. Please click 'Online Backup Settings' and "
+"login to enable online backup."
+msgstr ""
+
+#: include/bootstrap.php:1521
+msgid ""
+"The backup could not be started: An online backup cannot be performed if the "
+"plugin is not currently logged into the online backup servers."
+msgstr ""
+
+#: include/bootstrap.php:1541
+msgid "The activity was stopped by %s."
+msgstr ""
+
+#: include/bootstrap.php:1548
+msgid "The activity was stopped."
+msgstr ""
+
+#: include/bootstrap.php:1574
+msgid "The activity failed to initialise: %s"
+msgstr ""
+
+#: include/bootstrap.php:1641
+msgid "The activity failed: %s"
+msgstr ""
+
+#: include/bootstrap.php:1666
+msgid "Backup complete."
+msgstr ""
+
+#: include/bootstrap.php:1670
+msgid "Scheduled backup complete."
+msgstr ""
+
+#: include/bootstrap.php:1674
+msgid "Decrypt complete."
+msgstr ""
+
+#: include/bootstrap.php:1678
+msgid "Completed."
+msgstr ""
+
+#: include/bootstrap.php:1744
+msgid "Initialising..."
+msgstr ""
+
+#: include/bootstrap.php:1768
+msgid "Initialisation completed."
+msgstr ""
+
+#: include/bootstrap.php:2130
+msgid ""
+"The directory (%s) where local backups will be stored could not be created."
+msgstr ""
+
+#: include/bootstrap.php:2131
+msgid ""
+"You may need to login via FTP and create the folder yourself and \"CHMOD\" "
+"it to \"0770\" or, as a last resort, \"0777\". You should also create the "
+"temporary processing directory (%s) with the same permissions."
+msgstr ""
+
+#: include/bootstrap.php:2132 include/bootstrap.php:2154
+#: include/bootstrap.php:2176 include/bootstrap.php:2210
+#: include/bootstrap.php:2492
+msgid "Error: %s"
+msgstr ""
+
+#: include/bootstrap.php:2135
+msgid "Unable to create the local backup directory."
+msgstr ""
+
+#: include/bootstrap.php:2152
+msgid ""
+"The directory (%s) where local backups will be stored cannot be written to."
+msgstr ""
+
+#: include/bootstrap.php:2153
+msgid ""
+"You may need to login via FTP and \"CHMOD\" it to \"0770\" or, as a last "
+"resort, \"0777\". You should also check the temporary processing directory "
+"(%s) has the same permissions, also creating the folder if necessary."
+msgstr ""
+
+#: include/bootstrap.php:2157
+msgid "Unable to write to the local backup directory."
+msgstr ""
+
+#: include/bootstrap.php:2174
+msgid ""
+"The temporary processing directory (%s) where data is processed could not be "
+"created."
+msgstr ""
+
+#: include/bootstrap.php:2175
+msgid ""
+"You may need to login via FTP and create the folder yourself and \"CHMOD\" "
+"it to \"0770\" or, as a last resort, \"0777\"."
+msgstr ""
+
+#: include/bootstrap.php:2179
+msgid "Unable to create the temporary processing directory."
+msgstr ""
+
+#: include/bootstrap.php:2208
+msgid ""
+"The temporary data file could not be created in the temporary processing "
+"directory (%s)."
+msgstr ""
+
+#: include/bootstrap.php:2209
+msgid ""
+"If the below error is related to permissions, you may need to login to your "
+"website via FTP and change the permissions on the temporary processing "
+"directory. The permissions required, in numeric form, are normally 0770, but "
+"on some servers you may need to use 0777. Your host will be able to assist "
+"if you have any doubts."
+msgstr ""
+
+#: include/bootstrap.php:2213
+msgid "Unable to create the temporary data file."
+msgstr ""
+
+#: include/bootstrap.php:2308
+msgid "Finalising..."
+msgstr ""
+
+#: include/bootstrap.php:2426
+msgid "Stored the decrypted file locally as %s."
+msgstr ""
+
+#: include/bootstrap.php:2460
+msgid "WPOnlineBackup_%1$s_%2$s_%3$s"
+msgstr ""
+
+#: include/bootstrap.php:2491
+msgid ""
+"An error occurred trying to save the backup to the local backup folder at %s."
+msgstr ""
+
+#: include/bootstrap.php:2495
+msgid "Failed to save the backup to local storage."
+msgstr ""
+
+#: include/bootstrap.php:2505
+msgid "Stored the backup locally as %s."
+msgstr ""
+
+#: include/bootstrap.php:2544
+msgid "Local Backups contains %1$s generation with a total size of %2$s."
+msgid_plural ""
+"Local Backups contains %1$s generations with a total size of %2$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/bootstrap.php:2554 include/transmission.php:646
+msgid "Performing retention..."
+msgstr ""
+
+#: include/bootstrap.php:2570
+msgid "Retention is not required."
+msgstr ""
+
+#: include/bootstrap.php:2627
+msgid "Failed to delete local backup %1$s: %2$s"
+msgstr ""
+
+#: include/bootstrap.php:2664
+msgid ""
+"Errors were encountered trying to delete one or more Local Backups. Disk "
+"space used by Local Backups will be higher than configured until they can be "
+"successfully removed."
+msgstr ""
+
+#: include/bootstrap.php:2672 include/transmission.php:717
+msgid "Retention completed; deleted %d file with a total size of %s."
+msgid_plural "Retention completed; deleted %d files with a total size of %s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/decrypt.php:64
+msgid "Failed to open the encrypted backup file at %s: %s"
+msgstr ""
+
+#: include/decrypt.php:73
+msgid "Failed to access the encrypted backup file at %s: %s"
+msgstr ""
+
+#: include/decrypt.php:81
+msgid "Validating the provided encryption details..."
+msgstr ""
+
+#: include/decrypt.php:90
+msgid "The encryption details provided were incorrect."
+msgstr ""
+
+#: include/decrypt.php:92
+msgid "Failed to validate the encryption details provided. The error was: %s"
+msgstr ""
+
+#: include/decrypt.php:101
+msgid "Encryption details validated successfully."
+msgstr ""
+
+#: include/decrypt.php:108
+msgid ""
+"Encryption details validated successfully. The total decrypted backup size "
+"will be %s."
+msgstr ""
+
+#: include/decrypt.php:116
+msgid "Decrypting..."
+msgstr ""
+
+#: include/decrypt.php:128
+msgid "Failed to initialise the decryption process. The error was: %s"
+msgstr ""
+
+#: include/decrypt.php:160
+msgid ""
+"The file integrity check failed. The file may be corrupt or the encryption "
+"details validated but were actually incorrect (there is a small chance of "
+"this happening.)"
+msgstr ""
+
+#: include/decrypt.php:162
+msgid "Decryption failed. The error was: %s"
+msgstr ""
+
+#: include/decrypt.php:176
+msgid "Decryption completed successfully."
+msgstr ""
+
+#: include/email.php:65
+msgid "Sending email..."
+msgstr ""
+
+#: include/email.php:70
+msgid "The backup is %s in size. Emailing it to %s."
+msgstr ""
+
+#: include/email.php:88
+msgid ""
+"Two attempts to send the email timed out. It looked like PHP would have "
+"enough to memory to process backup files of up to %s, and your backup file "
+"is %s. There may be an issue with your WordPress installation's ability to "
+"send emails with attachments, or something is causing the emailing process "
+"to use more memory than it normally would. Try reducing the size of your "
+"backup by adding some exclusions, and check that any email-related plugins "
+"are functioning normally."
+msgstr ""
+
+#: include/email.php:92
+msgid ""
+"There is a problem with your WordPress installation's ability to send "
+"emails, or the backup file is too large to send as an attachment (%s)."
+msgstr ""
+
+#: include/email.php:107
+msgid ""
+"The amount of memory required to encode the backup into email format will "
+"use up more memory than PHP currently has available. Your backup is %s and "
+"PHP only has enough memory for a backup of approximately %s. Try reducing "
+"the size of your backup by adding some exclusions."
+msgstr ""
+
+#: include/email.php:111
+msgid "The backup file is too large to send in an email (%s)."
+msgstr ""
+
+#: include/email.php:143
+msgid ""
+"Online Backup for WordPress backup of %s successfully completed. The size of "
+"the backup is %s."
+msgstr ""
+
+#: include/email.php:149
+msgid "Backup of %s completed"
+msgstr ""
+
+#: include/email.php:160
+msgid ""
+"Failed to send an email containing the backup file. It may be too large to "
+"send (%s). Try reducing the size of your backup by adding some exclusions."
+msgstr ""
+
+#: include/email.php:165
+msgid ""
+"Failed to send an email containing the backup file; it may be too large to "
+"send (%s)."
+msgstr ""
+
+#: include/email.php:171
+msgid "Successfully emailed the backup."
+msgstr ""
+
+#: include/files.php:65
+msgid "Temporary backup directory"
+msgstr ""
+
+#: include/files.php:68
+msgid "Temporary compression directory"
+msgstr ""
+
+#: include/files.php:71
+msgid "Local backups directory"
+msgstr ""
+
+#: include/files.php:74
+msgid "Themes directory"
+msgstr ""
+
+#: include/files.php:77
+msgid "Plugins directory"
+msgstr ""
+
+#: include/files.php:80
+msgid "Multisite plugins directory"
+msgstr ""
+
+#: include/files.php:83
+msgid "Uploads directory"
+msgstr ""
+
+#: include/files.php:87
+msgid "Custom exclude"
+msgstr ""
+
+#: include/files.php:136
+msgid "Skipping filesystem backup due to an error: Could not access %s. %s"
+msgstr ""
+
+#: include/files.php:578
+msgid ""
+"The WordPress parent folder, %s, could not be accessed; the backup will try "
+"to continue by backing up the WordPress folder only: %s"
+msgstr ""
+
+#: include/files.php:613
+msgid "File system scan completed."
+msgstr ""
+
+#: include/files.php:616
+msgid "Failed to scan file %s: %s."
+msgstr ""
+
+#: include/files.php:617
+msgid "Examined file %s."
+msgstr ""
+
+#: include/files.php:630
+msgid "File collection completed."
+msgstr ""
+
+#: include/files.php:633 include/files.php:681
+msgid "Failed to backup file %s: %s."
+msgstr ""
+
+#: include/files.php:634 include/files.php:682
+msgid "Backed up file %s."
+msgstr ""
+
+#: include/files.php:640
+msgid "Deleted files processing completed."
+msgstr ""
+
+#: include/files.php:678
+msgid "File system backup completed."
+msgstr ""
+
+#: include/files.php:734
+msgid "The file size is: %s"
+msgstr ""
+
+#: include/files.php:738
+msgid ""
+"Trying to retrieve the size of the file returned the following error: %s"
+msgstr ""
+
+#: include/files.php:744
+msgid "Trying to retrieve the size of the file also timed out."
+msgstr ""
+
+#: include/files.php:748
+msgid ""
+"Two separate attempts to process the file caused the backup to time out. The "
+"file is most likely very large, and therefore difficult to process. %s"
+msgstr ""
+
+#: include/files.php:810 include/files.php:1539
+msgid "Status of folder %s was skipped: %s"
+msgstr ""
+
+#: include/files.php:836
+msgid "Folder %s was skipped: %s"
+msgstr ""
+
+#: include/files.php:888
+msgid "Link %s was skipped: Links are not currently supported"
+msgstr ""
+
+#: include/files.php:909
+msgid "Folder %s was excluded: %s"
+msgstr ""
+
+#: include/files.php:921
+msgid ""
+"Folder %s was skipped: Unknown special characters in the folder name; please "
+"remove them to allow backup"
+msgstr ""
+
+#: include/files.php:963
+msgid "File %s was excluded: %s"
+msgstr ""
+
+#: include/files.php:983
+msgid ""
+"File %s was skipped: Unknown special characters in the file name; please "
+"remove them to allow backup"
+msgstr ""
+
+#: include/files.php:1046 include/files.php:1441
+msgid "Size unknown"
+msgstr ""
+
+#: include/files.php:1081 include/files.php:1484
+msgid "File %s was skipped: %s"
+msgstr ""
+
+#: include/files.php:1617
+msgid "Processing deleted files..."
+msgstr ""
+
+#: include/files.php:1712
+msgid "Updating backup journal..."
+msgstr ""
+
+#: include/scheduler.php:29
+msgid "Not Scheduled"
+msgstr ""
+
+#: include/scheduler.php:30
+msgid "Hourly"
+msgstr ""
+
+#: include/scheduler.php:31
+msgid "Every 6 Hours (Four Times Daily)"
+msgstr ""
+
+#: include/scheduler.php:32
+msgid "Every 12 Hours (Twice Daily)"
+msgstr ""
+
+#: include/scheduler.php:33
+msgid "Daily"
+msgstr ""
+
+#: include/scheduler.php:34
+msgid "Weekly"
+msgstr ""
+
+#: include/scheduler.php:38
+msgid "Sunday"
+msgstr ""
+
+#: include/scheduler.php:39
+msgid "Monday"
+msgstr ""
+
+#: include/scheduler.php:40
+msgid "Tuesday"
+msgstr ""
+
+#: include/scheduler.php:41
+msgid "Wednesday"
+msgstr ""
+
+#: include/scheduler.php:42
+msgid "Thursday"
+msgstr ""
+
+#: include/scheduler.php:43
+msgid "Friday"
+msgstr ""
+
+#: include/scheduler.php:44
+msgid "Saturday"
+msgstr ""
+
+#: include/scheduler.php:48
+msgid "Perform an incremental backup to the online vault"
+msgstr ""
+
+#: include/scheduler.php:49
+msgid "Perform a full backup and store it locally"
+msgstr ""
+
+#: include/scheduler.php:50
+msgid "Perform a full backup and email it to the specified address"
+msgstr ""
+
+#: include/stream_delta.php:292
+msgid ""
+"The backup is larger than the allowed size of %s (%s). Try reducing the size "
+"of your backup by adding some exclusions."
+msgstr ""
+
+#: include/stream_delta.php:293
+msgid "The backup is too big to send to the online backup vault (%s)."
+msgstr ""
+
+#: include/stream_delta.php:298
+msgid "The file is larger than the maximum allowed size of %s (%s)"
+msgstr ""
+
+#: include/stream_full.php:720
+msgctxt "Readme.txt filename in downloadable ZIP file"
+msgid "Readme.txt"
+msgstr ""
+
+#. translators: date() function string when displaying creation time in
+#. downloadable backup file
+#. translators: date() function string when displaying dump time in database
+#. backup header
+#: include/stream_full.php:729 include/tables.php:363
+msgid "d-m-Y H.i.s T"
+msgstr ""
+
+#: include/stream_full.php:733 include/tables.php:367
+msgid "Version %s"
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (Online Backup for WordPress 3.0.4)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#: include/stream_full.php:734 include/tables.php:368
+msgid "http://www.backup-technology.com/free-wordpress-backup/"
+msgstr ""
+
+#: include/stream_full.php:736 include/tables.php:370
+msgid "Blog: %s"
+msgstr ""
+
+#: include/stream_full.php:737
+msgid "Creation Time: %s"
+msgstr ""
+
+#: include/stream_full.php:765
+msgctxt "Full backup folder name in downloadable ZIP file"
+msgid "Database"
+msgstr ""
+
+#: include/stream_full.php:783
+msgctxt "Full backup folder name in downloadable ZIP file"
+msgid "FileSystem"
+msgstr ""
+
+#: include/tables.php:143
+msgid "Failed to retrieve the table list from the database: %s."
+msgstr ""
+
+#: include/tables.php:222
+msgid "Failed to retrieve the index list from table '%s': %s."
+msgstr ""
+
+#: include/tables.php:257
+msgid ""
+"Table '%s' has no PRIMARY or UNIQUE key! Backup of this table may be "
+"inconsistent; some rows could get missed. See FAQ for more information."
+msgstr ""
+
+#: include/tables.php:283
+msgid ""
+"Failed to retrieve field list from table '%s': %s. Table will be skipped."
+msgstr ""
+
+#: include/tables.php:310
+msgid "Ignoring comments in the trash."
+msgstr ""
+
+#: include/tables.php:316
+msgid "Ignoring comments that are marked as spam."
+msgstr ""
+
+#: include/tables.php:346
+msgid "Starting database backup..."
+msgstr ""
+
+#: include/tables.php:371
+msgid "Database Dump Time: %s"
+msgstr ""
+
+#: include/tables.php:384
+msgid "Finalising database backups..."
+msgstr ""
+
+#: include/tables.php:415
+msgid "Database backup completed."
+msgstr ""
+
+#: include/tables.php:456
+msgid ""
+"Failed to retrieve rows in table '%s' using WPDB API: %s. The table may only "
+"be partially backed up."
+msgstr ""
+
+#: include/tables.php:495
+msgid ""
+"Failed to retrieve rows in table '%s' using MySQL client: %s. The table may "
+"only be partially backed up."
+msgstr ""
+
+#: include/tables.php:612
+msgid "Backing up %s..."
+msgstr ""
+
+#: include/tables.php:627
+msgid ""
+"Failed to retrieve information for table '%s': %s. The table will be skipped."
+msgstr ""
+
+#: include/tables.php:653
+msgid ""
+"Failed to retrieve row count for table '%s': %s. The table will be skipped."
+msgstr ""
+
+#: include/tables.php:752
+msgid "Backing up %s; %d of %d rows..."
+msgstr ""
+
+#: include/transmission.php:80
+msgid ""
+"An online request failed: The server response was malformed. Please try "
+"again later."
+msgstr ""
+
+#: include/transmission.php:81
+msgid ""
+"If the issue persists, contact support and provide the following diagnostic "
+"information:"
+msgstr ""
+
+#: include/transmission.php:112
+msgid "Failed to login to the online vault: %s"
+msgstr ""
+
+#: include/transmission.php:114 include/transmission.php:1024
+msgid ""
+"An online request failed: The server responded with status code %d and error "
+"code %s: %s"
+msgstr ""
+
+#: include/transmission.php:175
+msgid "Connecting to online backup vault..."
+msgstr ""
+
+#: include/transmission.php:214
+msgid ""
+"The total backup size exceeds your maximum online quota of %s, and therefore "
+"cannot be transmitted to the online vault."
+msgstr ""
+
+#: include/transmission.php:214
+msgid "The backup file is too large to send to the online vault. (%s)."
+msgstr ""
+
+#: include/transmission.php:225 include/transmission.php:229
+msgid "Backup status is out of sync, synchronising with server..."
+msgstr ""
+
+#: include/transmission.php:410
+msgid "Synchronisation of backup data completed."
+msgstr ""
+
+#: include/transmission.php:495
+msgid "The backup is %s in size. Starting transmission to the online vault."
+msgstr ""
+
+#: include/transmission.php:541 include/transmission.php:791
+msgid "Transmitting the backup files to the server... (total size is %s)"
+msgstr ""
+
+#: include/transmission.php:594
+msgid "Waiting while the server processes the backup data..."
+msgstr ""
+
+#: include/transmission.php:598 include/transmission.php:638
+#: include/transmission.php:699
+msgid "Transmission of the backup data to the online vault has completed."
+msgstr ""
+
+#: include/transmission.php:610
+msgid ""
+"Waiting while the server processes the backup data... (the server is "
+"currently very busy, this may take a while)"
+msgstr ""
+
+#: include/transmission.php:650 include/transmission.php:708
+msgid "The online vault has successfully processed the backup data."
+msgstr ""
+
+#: include/transmission.php:726
+msgid "Retention is not required, you are still within your maximum quota."
+msgstr ""
+
+#: include/transmission.php:736
+msgid "Processing backup log..."
+msgstr ""
+
+#: include/transmission.php:753
+msgid ""
+"The server is already part way through receiving another backup. Please try "
+"again in a few moments."
+msgstr ""
+
+#: include/transmission.php:755
+msgid ""
+"The connection to your blog failed. This may be a temporary failure or your "
+"blog may not be accessible over the internet. Please try again later."
+msgstr ""
+
+#: include/transmission.php:757
+msgid ""
+"The connection to your blog timed out part way through receiving the backup "
+"data. Please check your blog is not experiencing any network issues and try "
+"again later."
+msgstr ""
+
+#: include/transmission.php:759
+msgid ""
+"The server failed to retrieve data from your blog. Please check your blog is "
+"not experiencing any network issues and try again later."
+msgstr ""
+
+#: include/transmission.php:761
+msgid ""
+"The backup is larger than your complete quota on the online vault. It cannot "
+"be stored. Please reduce the backup size by excluding something - it is "
+"currently %s in size."
+msgstr ""
+
+#: include/transmission.php:763
+msgid ""
+"The server attempted to retrieve the data, but received junk from your blog. "
+"This can happen if your blog is not accessible over the internet. Otherwise, "
+"you may have a third-party plugin installed that is changing the backup data "
+"as the server tries to receive it. Please contact support if this is the "
+"case so we may improve compatibility."
+msgstr ""
+
+#: include/transmission.php:765
+msgid ""
+"The backup data on the server is currently locked. This is usually the case "
+"when a request has been made to delete the blog data and the server is still "
+"performing the deletion."
+msgstr ""
+
+#: include/transmission.php:771
+msgid "The server failed to retrieve the backup. The reason is unknown."
+msgstr ""
+
+#: include/transmission.php:772
+msgid "The unknown error token the server returned was: %s"
+msgstr ""
+
+#: include/transmission.php:775
+msgid ""
+"The server failed to retrieve the backup. The reason is unknown. Please "
+"consult the activity log."
+msgstr ""
+
+#: include/transmission.php:789
+msgid ""
+"Transmitting the backup files to the server... (%s of %s transferred so far)"
+msgstr ""
+
+#: include/transmission.php:811
+msgid ""
+"Transmitting the backup files to the server... (%s of %s transferred so far; "
+"the server is currently very busy, this may take a while)"
+msgstr ""
+
+#: include/transmission.php:813
+msgid ""
+"Transmitting the backup files to the server... (total size is %s; the server "
+"is currently very busy, this may take a while)"
+msgstr ""
+
+#: include/transmission.php:947
+msgid ""
+"Communication with the online backup vault failed; more information can be "
+"found in the Activity Log."
+msgstr ""
+
+#: include/transmission.php:950
+msgid ""
+"Communication with the online backup vault failed. Please ensure your blog "
+"is able to perform HTTPS requests to %s. You may need to contact your web "
+"host regarding this. The error was: %s."
+msgstr ""
+
+#: include/transmission.php:988
+msgid ""
+"The online backup vault is currently down for scheduled maintenance. We "
+"apologise for any inconvenience. %s"
+msgstr ""
+
+#: include/transmission.php:991
+msgid ""
+"The online backup vault is currently down for emergency maintenance. We "
+"apologise for any inconvenience. %s"
+msgstr ""
+
+#: include/transmission.php:1025
+msgid "The server returned the following error message: %s"
+msgstr ""
+
+#: include/writer_encrypt.php:156
+msgid ""
+"The selected encryption type is no longer available on the server. The "
+"server configuration must have changed during backup. Please change the "
+"encryption details and run the backup again. If this was an online backup "
+"you may need to contact your host about this as your encryption details "
+"cannot be changed."
+msgstr ""
+
+#: include/writer_encrypt.php:221
+msgid ""
+"The selected encryption type is no longer available on the server. The "
+"server configuration must have changed since encryption was configured. "
+"Please change the encryption details and run the backup again. If this was "
+"an online backup you may need to contact your host about this as your "
+"encryption details cannot be changed."
+msgstr ""
+
+#: wponlinebackup.php:229
+msgctxt "Plugin actions"
+msgid "Managed by Network Administrator"
+msgstr ""
+
+#: wponlinebackup.php:284 wponlinebackup.php:297 wponlinebackup.php:307
+msgid "No message was logged."
+msgstr ""
+
+#: wponlinebackup.php:288 wponlinebackup.php:311
+msgid "No error message was logged."
+msgstr ""
+
+#: wponlinebackup.php:290
+msgid ""
+"An error happened at: %s(%s)\n"
+"%s"
+msgstr ""
+
+#: wponlinebackup.php:342
+msgid "[Error Code %s] %s"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Online Backup for WordPress can automatically backup your WordPress database "
+"and filesystem on a configurable schedule and can incrementally send the "
+"backup compressed (and optionally encrypted using DES or AES) to our online "
+"vault where you can later retrieve it. Backups can also be emailed to you or "
+"produced on-demand and downloaded straight to your computer. You can view "
+"the current status and change settings at \"Online Backup\", or by clicking "
+"the \"View Dashboard\" link next to the plugin name in the Plugins list."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Jason Woods @ Backup Technology"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.backup-technology.com/"
+msgstr ""
